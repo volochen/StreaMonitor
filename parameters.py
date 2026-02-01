@@ -8,7 +8,6 @@ if os.path.exists('.env'):
 
 
 DOWNLOADS_DIR = env.str("STRMNTR_DOWNLOAD_DIR", "downloads")
-MIN_FREE_DISK_PERCENT = env.float("STRMNTR_MIN_FREE_SPACE", 5.0)  # in %
 DEBUG = env.bool("STRMNTR_DEBUG", False)
 
 # The camsoda bot ignores this setting in favor of a chrome useragent generated with the fake-useragent library
